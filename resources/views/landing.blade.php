@@ -6,7 +6,7 @@
     <div class="nebula n1"></div><div class="nebula n2"></div><div class="nebula n3"></div>
     <span class="shoot" style="top:12%"></span><span class="shoot" style="top:32%;animation-delay:2.4s"></span>
     <div class="hcontent">
-        <span class="eb"><span class="dotpulse"></span> {{ $school->name() }} · Tahun Ajaran {{ now()->year }}/{{ now()->year + 1 }}</span>
+        <span class="eb"><span class="dotpulse"></span> {{ $school->nam() }} · Tahun Ajaran {{ now()->year }}/{{ now()->year + 1 }}</span>
         <h1>Satu Portal untuk <span class="grad">Semua Kegiatan</span> Ekstrakurikuler</h1>
         <p>Daftar ekskul, pantau jadwal, cek presensi, lihat nilai, dan unduh sertifikat — semua dalam satu tempat untuk siswa, pembina, dan admin sekolah.</p>
         <div class="cta"><a class="btn btn-p" href="{{ route('register') }}">+ Daftar Sebagai Siswa</a><a class="btn btn-o" href="{{ route('login') }}">Sudah Punya Akun? Masuk →</a></div>
